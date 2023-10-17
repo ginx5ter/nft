@@ -1,0 +1,25 @@
+{
+    "language": "Solidity",
+    "sources": {
+      "your_contract_name.sol": {
+        "urls": [
+          "./NFTCollection.sol"
+        ]
+      }
+    },
+    "settings": {
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "outputSelection": {
+        "*": {
+          "*": [
+            "abi",
+            "evm.bytecode"
+          ]
+        }
+      }
+    }
+  }
+  
